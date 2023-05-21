@@ -7,7 +7,7 @@ async def gabung_kata(kata):
     return ' '.join(kata).title()
 
 async def main():
-    kata = ['saya', 'suka', 'belajar', 'python']
+    kata = ['saya', 'suka', 'ai', 'hoshino']
     hasil = await gabung_kata(kata)
     print(hasil)
 
