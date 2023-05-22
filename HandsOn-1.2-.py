@@ -11,7 +11,8 @@ async def hitung_karakter(kalimat):
     return sum(not c.isspace() for c in kalimat)
 
 async def main():
-    kata = ['saya', 'suka', 'ai', 'hoshino'] # Ganti kata tanpa mengihlangkan tanda ' '
+    # Ganti kata di bawah tanpa menghilangkan tanda ' '
+    kata = ['saya', 'suka', 'ai', 'hoshino']
     hasil = await gabung_kata(kata)
     print(hasil)
     
