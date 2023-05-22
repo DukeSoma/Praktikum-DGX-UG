@@ -1,6 +1,6 @@
 # Author: @makanyakuliah
 # DO NOT SELL THIS CODE, PLEASE?
-# Petunjuk : Ganti kata sesuai dengan kemauan Anda, lalu jalankan di Google Colab
+# Petunjuk: Ganti kata sesuai dengan kemauan Anda, lalu jalankan di Google Colab
 
 import asyncio
 
@@ -11,7 +11,7 @@ async def hitung_karakter(kalimat):
     return sum(not c.isspace() for c in kalimat)
 
 async def main():
-    kata = ['saya', 'suka', 'ai', 'hoshino']
+    kata = ['saya', 'suka', 'ai', 'hoshino'] # Ganti kata tanpa mengihlangkan tanda ' '
     hasil = await gabung_kata(kata)
     print(hasil)
     
