@@ -1,6 +1,6 @@
 # Author: @makanyakuliah
 # DO NOT SELL THIS CODE, PLEASE?
-# Petunjuk : Ganti kata sesuai dengan kemauan Anda, lalu jalankan di Google Colab
+# Petunjuk: Ganti kata sesuai dengan kemauan Anda, lalu jalankan di Google Colab
 
 import asyncio
 
